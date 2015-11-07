@@ -1,10 +1,13 @@
 {
   "name": "parse-js-sdk",
-  "version": "1.4.2",
+  "version": "1.6.7",
   "main": "lib/parse.js",
   "ignore": [
     "**/.*",
     "node_modules",
     "components"
-  ]
+  ],
+  "dependencies": {
+    "parse-js-sdk": "https://github.com/travisrussi/parse-js-sdk"
+  }
 }
